@@ -6,7 +6,7 @@
 每一行记录路径信息，总共有四列，分别对应着公交车编号，起点编号，终点编号以及路段的长度
 文件格式如下：
 公交车编号|起点编号|终点编号|路段长度
-![1.1](image/1.1.png)
+![1.1](https://gitee.com/ruanxinwei/image/raw/master/image/1.1.png)
 
 ### BUSES.txt
 
@@ -15,13 +15,13 @@
 第二行：公交车起始站点
 第三行：公交车终止站点
 文件格式如下：
-![1.2](image/1.2.png)
+![1.2](https://gitee.com/ruanxinwei/image/raw/master/image/1.2.png)
 
 ### STATIONS.txt
 
 每一行记录一个站点名称，其位次为站点的编号+1
 文件格式如下：
-![1.3](image/1.3.png)
+![1.3](https://gitee.com/ruanxinwei/image/raw/master/image/1.3.png)
 
 ## 整体算法描述
 
@@ -79,14 +79,14 @@ typedef struct BusMap
 2. 点击确定后，文本框中立马显示数据
 3. 查询公交线路运行结果
 4. 程序运行结果截图
-   ![4.1](image/4.1.png)
+   ![4.1](https://gitee.com/ruanxinwei/image/raw/master/image/4.1.png)
 
 ### 站点信息
 1. 选择对应站点名
 2. 点击确定后，文本框中立马显示数据
 3. 查询站点信息运行结果：
 4. 程序运行结果截图
-   ![4.2](image/4.2.png)
+   ![4.2](https://gitee.com/ruanxinwei/image/raw/master/image/4.2.png)
 
 ## 查询路线
 
@@ -95,7 +95,7 @@ typedef struct BusMap
 1. 选择起点和终点
 2. 点击确定后，文本框中立马显示数据
 3. 查询路线信息截图
-   ![5](image/5.png)
+   ![5](https://gitee.com/ruanxinwei/image/raw/master/image/5.png)
 
 ## 修改信息
 
@@ -105,75 +105,76 @@ typedef struct BusMap
 #### 增加公交车
 1. 填写公交名、起点和终点在添加操作框中
 2. 点击确定后，会弹出消息框显示添加操作是否成功
-3. 增加公交车截图以及文件内截图![6.1.1.1](image/6.1.1.1.png)
-   ![6.1.1.2](image/6.1.1.2.png)
+3. 增加公交车截图以及文件内截图
+   ![6.1.1.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.1.1.1.png)
+   ![6.1.1.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.1.1.2.png)
 
 #### 删除公交车
 1. 选择公交名
 2. 点击确定后，会弹出消息框显示添加操作是否成功
 3. 删除公交车截图以及文件内截图
-   ![6.1.2.1](image/6.1.2.1.png)
-   ![6.1.2.2](image/6.1.2.2.png)
+   ![6.1.2.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.1.2.1.png)
+   ![6.1.2.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.1.2.2.png)
 
 #### 更新公交车
 1. 填写原来的和想修改的公交名、起点和终点在操作框中
 2. 点击确定后，会弹出消息框显示更新操作是否成功
 3. 更新公交车截图以及文件内截图
-   ![6.1.3.1](image/6.1.3.1.png)
-   ![6.1.3.2](image/6.1.3.2.png)
+   ![6.1.3.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.1.3.1.png)
+   ![6.1.3.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.1.3.2.png)
 
 ### 修改公交线路信息
 #### 增加公交线路
 1. 填写路径对应数据
 2. 点击确定后，会弹出消息框显示添加操作是否成功
 3. 增加公交线路截图以及文件内截图
-   ![6.2.1.1](image/6.2.1.1.png)
-   ![6.2.1.2](image/6.2.1.2.png)
+   ![6.2.1.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.2.1.1.png)
+   ![6.2.1.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.2.1.2.png)
 
 #### 删除公交线路
 1. 填写需要删除路径对应数据
 2. 点击确定后，会弹出消息框显示删除操作是否成功
 3. 删除公交线路截图以及文件内截图
-   ![6.2.2.1](image/6.2.2.1.png)
-   ![6.2.2.2](image/6.2.2.2.png)
+   ![6.2.2.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.2.2.1.png)
+   ![6.2.2.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.2.2.2.png)
 
 #### 更新公交线路
 1. 填写需要更新的原路径和新路径数据
 2. 点击确定后，会弹出消息框显示更新操作是否成功
 3. 更新公交线路截图以及文件内截图
-   ![6.2.3.1](image/6.2.3.1.png)
-   ![6.2.3.2](image/6.2.3.2.png)
+   ![6.2.3.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.2.3.1.png)
+   ![6.2.3.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.2.3.2.png)
 
 ### 修改站点信息
 #### 增加站点信息
 1. 填写需要添加的站点名称
 2. 点击确定后，会弹出消息框显示添加操作是否成功
 3. 添加站点信息截图以及文件内截图
-   ![6.3.1.1](image/6.3.1.1.png)
-   ![6.3.1.2](image/6.3.1.2.png)
+   ![6.3.1.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.3.1.1.png)
+   ![6.3.1.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.3.1.2.png)
 
 #### 删除站点信息
 1. 选择需要删除的站点名称
 2. 点击确定后，会弹出消息框显示删除操作是否成功
 3. 删除站点信息截图以及文件内截图
-   ![6.3.2.1](image/6.3.2.1.png)
-   ![6.3.2.2](image/6.3.2.2.png)
+   ![6.3.2.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.3.2.1.png)
+   ![6.3.2.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.3.2.2.png)
 
 #### 更新站点信息
 1. 选择需要更新的站点名称，填写新站点名称
 2. 点击确定后，会弹出消息框显示更新操作是否成功
 3. 更新站点信息截图以及文件内截图
-   ![6.3.3.1](image/6.3.3.1.png)
-   ![6.3.3.2](image/6.3.3.2.png)
+   ![6.3.3.1](https://gitee.com/ruanxinwei/image/raw/master/image/6.3.3.1.png)
+   ![6.3.3.2](https://gitee.com/ruanxinwei/image/raw/master/image/6.3.3.2.png)
 
 ## 流程图
 ### 总流程图
 
-![7.1](image/7.1.png)
+![7.1](https://gitee.com/ruanxinwei/image/raw/master/image/7.1.png)
 
 ### 查询路径流程图
 
-![7.2](image/7.2.png)
+![7.2](https://gitee.com/ruanxinwei/image/raw/master/image/7.2.png)
 
 ## 设计总结
 这次的数据结构课程设计，是我第一次使用MFC构造公交线路图的图形化界面，虽然在实现过程中遇到了很多坎坷，但是在摸索中不断学习，不断进步，同时掌握了很多关于构建图形化界面的知识。在使用一些控件的时候，从不了解到掌握，慢慢地学会之间的一些函数，然后用这些函数去实现一些自己想要实现的功能，这真的是种很开心的事情。
